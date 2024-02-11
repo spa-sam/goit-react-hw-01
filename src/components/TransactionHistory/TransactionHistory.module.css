@@ -1,0 +1,41 @@
+.transactionHistory {
+  margin: 20px auto 0;
+  width: 600px;
+  border: 2px solid #230505;
+  border-collapse: collapse;
+}
+
+thead,
+th,
+.data {
+  border: 2px solid black;
+  padding: 5px;
+}
+th {
+  width: calc(100% / 3);
+}
+thead {
+  background-color: #593d3d;
+  color: #ffffff;
+}
+
+.data {
+  text-align: center;
+}
+
+.data div {
+  display: inline-block;
+  text-align: left;
+  width: calc(100% / 3);
+}
+
+.data:first-child {
+  text-transform: capitalize;
+}
+.row {
+  color: black;
+}
+
+.row:nth-child(2n) {
+  background-color: #c5b5b5;
+}
